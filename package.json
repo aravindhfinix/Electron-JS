@@ -1,0 +1,21 @@
+{
+  "name": "shopping-application",
+  "version": "1.0.0",
+  "build": {
+    "win": {
+      "icon": "images/candy_dessert_food_sweet_ice_cream_icon_258668.ico" 
+    }
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.1.0"
+  }
+}
