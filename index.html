@@ -1,2 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<p>hello mohana</p>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Shopping Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .product {
+            float: left;
+            width: 25%;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .product img {
+            width: 80%;
+            max-height: 150px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .cart {
+            background: #f4f4f4;
+            padding: 20px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Simple Shopping Site</h1>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <img src="./12gztrvj0kvu27vcdtvu.webp" alt="Product 1">
+            <h3>Node JS</h3>
+            <p>$19.99</p>
+            <button>Add to Cart</button>
+        </div>
+        
+        <div class="product">
+            <img src="./acec7ac0-bun.png" alt="Product 2">
+            <h3>Bun JS</h3>
+            <p>$24.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+
+    </div>
+
+    <div class="cart">
+        <h2>Shopping Cart</h2>
+        <p>Cart is empty</p>
+    </div>
+
+</body>
+
+</html>
